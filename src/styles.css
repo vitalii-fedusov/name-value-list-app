@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --gap: 12px;
+  --field-width: 70%;
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container {
+  min-width: 320px;
+  width: 80%;
+  max-width: 1064px;
+}
+
+.enter-value-container {
+  margin-bottom: 12px;
+}
+
+.form {
+  display: flex;
+  gap: var(--gap);
+}
+
+.input {
+  width: var(--field-width);
+  font-size: 18px;
+}
+
+.field-title {
+  margin: 0;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.list-container {
+  display: flex;
+  gap: var(--gap);
+}
+
+.list {
+  border: 1px solid gray;
+  margin: 0;
+  gap: var(--gap);
+  width: var(--field-width);
+  font-size: 18px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.field-title {
+  font-weight: normal;
+  color: gray;
+  font-size: 16px;
+}
